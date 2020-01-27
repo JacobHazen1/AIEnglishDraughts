@@ -14,13 +14,6 @@ main = blackAi black_ai apply_move initialGameState
 
 
 
----------------------------------------------------------
---                       YOUR CODE GOES HERE!!!!
----------------------------------------------------------
---   define apply_move and supporting functions here (or make a module)
-
-
-
 states ::GameState -> [GameState]
 states st =  map ((flip apply_move) st) (moves st)
 
