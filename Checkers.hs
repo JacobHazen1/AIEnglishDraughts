@@ -344,11 +344,6 @@ moveLeft b = case (NE.head list) of
     n = length $ nonEmptyCursorPrev b
 
 
-{-
-Interact with student code
--}
-
-
 
 getMove :: GameState -> [SC.Coord]
 getMove = getMove'
